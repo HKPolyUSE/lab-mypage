@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Richard Lui - Personal Homepage</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
+</head>
+<body class="bg-gray-50 font-sans">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg fixed w-full top-0 z-50">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="flex justify-between items-center py-4">
+                <div class="text-2xl font-bold text-blue-600">Dr. Richard Lui</div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#home" class="nav-link text-gray-700 hover:text-blue-600 transition duration-300">Home</a>
+                    <a href="#about" class="nav-link text-gray-700 hover:text-blue-600 transition duration-300">About</a>
+                    <a href="#projects" class="nav-link text-gray-700 hover:text-blue-600 transition duration-300">Projects</a>
+                </div>
+                <button id="mobile-menu-button" class="md:hidden text-gray-700 focus:outline-none">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+            </div>
+            <!-- Mobile Menu -->
+            <div id="mobile-menu" class="hidden md:hidden pb-4">
+                <a href="#home" class="block py-2 text-gray-700 hover:text-blue-600">Home</a>
+                <a href="#about" class="block py-2 text-gray-700 hover:text-blue-600">About</a>
+                <a href="#projects" class="block py-2 text-gray-700 hover:text-blue-600">Projects</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="pt-20 pb-12 md:pt-32 md:pb-20 bg-blue-600">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="flex flex-col md:flex-row items-center justify-between">
+                <div class="text-white md:w-1/2 mb-8 md:mb-0 text-center md:text-left">
+                    <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 fade-in">Dr. Richard Lui</h1>
+                    <p class="text-xl md:text-2xl mb-2 fade-in">LUI Wing Cheung</p>
+                    <p class="text-lg md:text-xl mb-6 fade-in">Senior Lecturer</p>
+                    <p class="text-base md:text-lg mb-4 fade-in">Department of Computing, The Hong Kong Polytechnic University</p>
+                    <p class="text-base md:text-lg mb-8 fade-in"><i class="fas fa-envelope mr-2"></i> cswclui@polyu.edu.hk</p>
+                    <a href="#about" class="inline-block bg-white text-blue-600 px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition duration-300 shadow-lg">Learn More</a>
+                </div>
+                <div class="md:w-1/2 flex justify-center">
+                    <div class="profile-image-container">
+                        <img src="richard.png" alt="Dr. Richard Lui" class="rounded-lg shadow-2xl border-8 border-white max-w-sm w-full h-auto object-contain bg-white">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-16 md:py-24 bg-white">
+        <div class="max-w-4xl mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-8 text-gray-800">About Me</h2>
+            <div class="bg-gray-50 p-8 rounded-lg shadow-md">
+                <p class="text-gray-700 leading-relaxed text-lg">
+                    Dr. Richard Lui (LUI Wing Cheung) is a Senior Lecturer in the Department of Computing at The Hong Kong Polytechnic University (PolyU). He has been the principal investigator of multiple UGC-funded projects since 2013, with extensive experience in innovative pedagogy, developing simulation games and e-learning platforms, and publishing work on online learning, simulation games and gamification. His recent work focuses on GenAI-powered chatbots and learning platforms; his research interests include game-based learning and AI in education. His projects were shortlisted for the QS Reimagined Education Award in 2024 and won the Silver award in 2025 (AI in Education). He enjoys playing badminton in his leisure time.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects & Achievements Section -->
+    <section id="projects" class="py-16 md:py-24 bg-gray-100">
+        <div class="max-w-6xl mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-800">Projects & Achievements</h2>
+            
+            <!-- Awards -->
+            <div class="mb-12">
+                <div class="bg-white p-8 rounded-lg shadow-lg">
+                    <div class="flex items-start mb-6">
+                        <i class="fas fa-trophy text-yellow-500 text-4xl mr-4"></i>
+                        <div>
+                            <h3 class="text-2xl font-bold mb-4 text-gray-800">Teaching Awards</h3>
+                            <ul class="space-y-2 text-gray-700">
+                                <li class="flex items-start">
+                                    <i class="fas fa-award text-blue-600 mr-2 mt-1"></i>
+                                    <span>Faculty Award in Teaching (Outstanding Individual) - 2016</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <i class="fas fa-award text-blue-600 mr-2 mt-1"></i>
+                                    <span>Faculty Award in Teaching Merit (Team) - 2022</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <i class="fas fa-award text-blue-600 mr-2 mt-1"></i>
+                                    <span>Faculty Award in Teaching Outstanding (Team) - 2023</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <i class="fas fa-star text-yellow-500 mr-2 mt-1"></i>
+                                    <span><a href="https://www.polyu.edu.hk/publications/pulse-polyu/issue/202601/achievements-news/three-innovative-teaching-projects-win-two-silvers-and-one-bronze-in-qs-reimagine-education-awards" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800 underline">QS Reimagine Education Silver Award - 2025 (AI in Education)</a></span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- (Research interests and experience merged into About Me paragraph) -->
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="max-w-6xl mx-auto px-4 text-center">
+            <p>&copy; 2026 Dr. Richard Lui. All rights reserved.</p>
+            <p class="mt-2 text-gray-400">Department of Computing, The Hong Kong Polytechnic University</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
