@@ -1,7 +1,7 @@
 # Richard Lui
 
 ## About Me
-Dr. Richard Lui (LUI Wing Cheung) serves as a Senior Lecturer in the Department of Computing at The Hong Kong Polytechnic University (PolyU).
+Dr. Richard Lui serves as a Senior Lecturer in the Department of Computing at The Hong Kong Polytechnic University (PolyU).
 He likes playing badminton.
 
 Email: cswclui@polyu.edu.hk
